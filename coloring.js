@@ -1,2 +1,5 @@
-alert("testing");
-alert("test 2");
+$('.mouthImage').click(
+    function(){
+        $('#mouth').css('background-image',$(this).css('background-image'));
+    }
+)
